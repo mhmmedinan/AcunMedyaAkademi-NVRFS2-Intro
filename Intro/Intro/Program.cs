@@ -73,5 +73,117 @@ else
 }
 
 
+/ loops
+
+
+//for,while,foreach,do while
+
+for (int i = 0; i < 50; i++)
+{
+    Console.WriteLine(i);
+}
+
+
+for (int i = 0; i < 50; i++)
+{
+    if (i % 2 != 0)
+    {
+        Console.WriteLine($" Tek sayılar : {i}");
+    }
+}
+
+//arrays
+//string[]  names = new string[3];
+//names[0] = "Esmanur";
+//names[1] = "Sidar";
+//names[2] = "Ahmet";
+
+//for(int i = 0; i < names.Length; i++)
+//{
+//    Console.WriteLine(names[i]);
+//}
+
+
+//int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+//for(int i = 0;i < numbers.Length; i++)
+//{
+//    Console.WriteLine(numbers[i]);
+//}
+
+
+//int[] numbers = new int[5];
+
+
+//Console.Write("Dizi boyutunu giriniz : ");
+//int arraySize = Convert.ToInt32(Console.ReadLine());
+
+//int[] numbers = new int[arraySize];
+
+//for (int i = 0; i < arraySize; i++)
+//{
+//    Console.Write($"Bir sayı giriniz  : ");
+//    numbers[i] = Convert.ToInt32(Console.ReadLine());
+//}
+
+//Console.WriteLine("Girilen sayılar : ");
+//foreach(var number in numbers)
+//{
+//    Console.WriteLine($"Sayılar : {number}");
+//}
+
+
+//List
+
+//List<string> names = new List<string>();
+//names.Add("Esmanur");
+//names.Add("Sidar");
+//names.Add("Ahmet");
+//names.Add("Enes");
+//foreach(var name in names)
+//{
+//    Console.WriteLine(name);
+//}
+
+
+List<string> names = new List<string> { "Esmanur", "Enes", "Ahmet", "Ahmet" };
+
+foreach (var name in names)
+{
+    Console.WriteLine(name);
+}
+
+names.RemoveAll(name => name == "Ahmet");
+
+foreach (var name in names)
+{
+    Console.WriteLine(name);
+}
+
+
+
+
+List<string> baskets = new List<string> { "Laptop", "Telefon", "Masa", "Sandalye" };
+
+Console.Write("Silmek istediğiniz ürünü giriniz : ");
+string nameToRemove = Console.ReadLine();
+
+if (baskets.Contains(nameToRemove))
+{
+    baskets.Remove(nameToRemove);
+    Console.WriteLine($"{nameToRemove} Adlı ürün sepetinizden silindi!");
+}
+else
+{
+    Console.WriteLine("Ürün sepetinizde bulunamadı!");
+}
+
+Console.WriteLine("Alışveriş sepetinizdeki ürünler : ");
+foreach (var item in baskets)
+{
+    Console.WriteLine(item);
+}
+
+
+
 
 
