@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Entities\\Entities.csproj": {}
+  },
+  "projects": {
+    "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
+        "outputPath": "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Muhammed\\.nuget\\packages\\",
+        "outputPath": "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Muhammed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Core\\Core.csproj": {
+                "projectPath": "C:\\AcunMedyAkademi\\NVRFS2\\Intro\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
